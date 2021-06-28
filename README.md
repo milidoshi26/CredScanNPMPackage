@@ -1,1 +1,1 @@
-# An NPM Package based on the CredScan Console App
+# A NPM Package based on the CredScan Console App
