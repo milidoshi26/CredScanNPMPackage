@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.DotNetHost" Version="5.0.7" />
+    <PackageReference Include="Microsoft.NETCore.DotNetHostPolicy" Version="5.0.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EdgeJs">
+      <HintPath>..\..\node_modules\edge-js\lib\bootstrap\bin\Release\netcoreapp1.1\EdgeJs.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Security.CredScan.KnowledgeBase">
+      <HintPath>Microsoft.Security.CredScan.KnowledgeBase.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Security.CredScan.KnowledgeBase.Client">
+      <HintPath>Microsoft.Security.CredScan.KnowledgeBase.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Security.RegularExpressions">
+      <HintPath>Microsoft.Security.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Security.Telemetry.Interfaces">
+      <HintPath>Microsoft.Security.Telemetry.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard" Version="2.0.0.0" Culture="neutral" PublicKeyToken="cc7b13ffcd2ddd51">
+      <HintPath>netstandard.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

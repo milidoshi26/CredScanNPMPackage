@@ -1,0 +1,14 @@
+{
+  "name": "cstest",
+  "version": "1.0.0",
+  "description": "This is a simple console app based on [CredScan-SDK](https://msazure.visualstudio.com/One/_git/SecEng-CredScan-SDK?version=GBdev) to scan for credentials in logs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "edge-js": "^15.5.2"
+  }
+}
